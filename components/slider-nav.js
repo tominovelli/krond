@@ -1,4 +1,3 @@
-<script>
 /**
  * KRONO | MULTI-SLIDER NAVIGATION BRIDGE
  * Version: 2.1.0
@@ -49,4 +48,3 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 });
-</script>
