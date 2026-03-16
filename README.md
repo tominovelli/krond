@@ -2,10 +2,10 @@
 
 A Vienna-based Webflow Agency specialized in bridging the gap between high-end design and technical SEO performance.
 
-### 🔧 What we do:
-- **[Webflow Development](https://www.krond.at/service/webflow)**: Scalable, clean-code, and GDPR-compliant systems.
-- **[Branding & Identity](https://www.krond.at/service/branding)**: Crafting digital-first corporate identities.
-- **[Technical SEO](https://www.krond.at/service/seo)**: Advanced indexing strategies and AEO (Answer Engine Optimization).
+### 🔧 Our Core Services:
+- **[Webflow Development](https://www.krond.at/service/website-webflow)**: High-performance, scalable, and clean-code web systems.
+- **[GDPR & Consent Management](https://www.krond.at/service/bulletproof-cookies-consent)**: Bulletproof Cookie Consent setups and DSGVO compliance.
+- **[SEO & AEO Performance](https://www.krond.at/service/seo-aeo-performance)**: Advanced technical indexing and Answer Engine Optimization.
 
 ### 🧪 Engineering at KROND
 We share snippets and tools focused on:
