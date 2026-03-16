@@ -1,38 +1,46 @@
 # 🚀 KROND | Webflow Agency & Components Library
 
-A Vienna-based Webflow Agency specialized in bridging the gap between high-end design and technical SEO performance.
-🌍 **Website:** [krond.at](https://www.krond.at) | 📍 **Location:** Vienna, Austria | ✉️ **Contact:** [hallo@krond.at](mailto:hallo@krond.at)
+A Vienna-based Webflow Agency specialized in bridging the gap between high-end design and technical SEO performance. We build tools that extend Webflow's native capabilities while maintaining a focus on clean code and lightning-fast load times.
+
+🌍 **Website:** [krond.at](https://www.krond.at)
+
+📍 **Location:** Vienna, Austria
+
+✉️ **Contact:** [hallo@krond.at]()
 
 ---
 
-## 📦 Open Source Webflow Components
-This repository hosts custom JavaScript components used for KROND Webflow projects, designed to bypass native Webflow limitations without compromising performance.
+## 📦 Open Source Library
 
-### 1. Multi-Slider Navigation Bridge (`slider-nav.js`)
+This repository is a modular collection of production-ready scripts used in KROND projects. Each component is isolated in its own directory with dedicated documentation.
 
-#### 🛑 The Problem
-Native Webflow slider arrows are "trapped" inside the slider component. If you want your navigation arrows to be located elsewhere on the page (e.g., in a different section or a separate grid column), you cannot do it natively without breaking the slider structure.
+### 🛠 UI Components
 
-#### ✅ The Solution
-This script acts as a bridge. It allows you to use **any** element (Div, Button, Image) as a slider trigger anywhere on the page, giving you 100% layout freedom.
+* **[Slider Navigation Bridge](https://www.google.com/search?q=./slider-nav)**
+* *Purpose:* Decouple Webflow slider arrows from the native structure for 100% layout freedom.
+* *Status:* Production Ready
 
-**How to use it in Webflow:**
-1. **Hide the native arrows:** Keep the native Webflow Left/Right arrows inside the slider, but set them to `display: none`.
-2. **Assign the Bridge ID:** Add the custom attribute `kr-arrow-slider` to the **native** arrows.
-   - Example: Native Left arrow -> `kr-arrow-slider="l1"`
-   - Example: Native Right arrow -> `kr-arrow-slider="r1"`
-3. **Create your Custom UI:** Create your custom buttons anywhere on your page.
-4. **Connect the dots:** Give your custom buttons the **exact same attribute values**:
-   - Custom Left Button -> `kr-arrow-slider="l1"`
-   - Custom Right Button -> `kr-arrow-slider="r1"`
 
-*Note: You can have multiple sliders on the same page. Just ensure each pair has a unique ID (e.g., `l2/r2`, `l3/r3`).*
 
-#### 🚀 Installation
-Add this script to the `</body>` tag of your Webflow project or page:
+### ✨ GSAP Animations
 
-```html
-<!-- Scripts Start -->
-<!-- [Script by Krond] Slider Button -->
-<script src="https://cdn.jsdelivr.net/gh/tominovelli/krond@v1.1/components/slider-nav.js" defer></script>
-<!-- Scripts End -->
+* **[GSAP Animations](https://www.google.com/search?q=./gsap-animations)**
+* *Purpose:* High-performance scroll-based interactions and reveal effects.
+* *Status:* Development / Internal
+
+
+
+---
+
+## 🛠 Usage & Reliability
+
+To ensure project stability, we use versioned releases via jsDelivr. We recommend anchoring your production projects to a specific version tag (e.g., `@v1.2`) rather than the `@main` branch.
+
+**Example CDN Structure:**
+`https://cdn.jsdelivr.net/gh/tominovelli/krond@[VERSION]/[FOLDER]/[FILE].js`
+
+---
+
+© 2026 [KROND](https://www.krond.at). All rights reserved.
+
+Licensed under [MIT](https://www.google.com/search?q=./LICENSE).
