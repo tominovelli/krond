@@ -32,4 +32,7 @@ This script acts as a bridge. It allows you to use **any** element (Div, Button,
 Add this script to the `</body>` tag of your Webflow project or page:
 
 ```html
-<script src="[https://cdn.jsdelivr.net/gh/tominovelli/krond@v1.1/components/slider-nav.js](https://cdn.jsdelivr.net/gh/tominovelli/krond@v1.1/components/slider-nav.js)" defer></script>
+<!-- Scripts Start -->
+<!-- [Script by Krond] Slider Button -->
+<script src="https://cdn.jsdelivr.net/gh/tominovelli/krond@v1.1/components/slider-nav.js" defer></script>
+<!-- Scripts End -->
