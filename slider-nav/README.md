@@ -29,4 +29,7 @@ Add the following snippet to the `</body>` tag of your Webflow project.
 *Note: Using v1.2 to reflect the new directory structure.*
 
 ```html
-<script src="[https://cdn.jsdelivr.net/gh/tominovelli/krond@v1.2/slider-nav/slider-nav.js](https://cdn.jsdelivr.net/gh/tominovelli/krond@v1.2/slider-nav/slider-nav.js)" defer></script>
+<!-- Scripts Start -->
+<!-- [Script by Krond] Slider Button -->
+<script src="https://cdn.jsdelivr.net/gh/tominovelli/krond@v1.2/slider-nav/slider-nav.js" defer></script>
+<!-- Scripts End -->
