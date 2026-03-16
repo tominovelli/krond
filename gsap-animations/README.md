@@ -44,12 +44,15 @@ Use this to animate a single element.
 Add the following to your Webflow project's **Before `</body>` tag**. You can configure your custom classes directly in the attributes:
 
 ```html
+<!-- Scripts Start -->
+<!-- [Script by Krond] Smart Reveal -->
 <script 
   src="https://cdn.jsdelivr.net/gh/tominovelli/krond@main/gsap-animations/gsap-reveal.js" 
   defer
   kr-stagger-classes=".custom-class-1, .custom-class-2"
   kr-fade-classes=".custom-class-1, .custom-class-2"
 ></script>
+<!-- Scripts End -->
 
 ```
 
