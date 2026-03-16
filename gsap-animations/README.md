@@ -50,7 +50,7 @@ Add the following to your Webflow project's **Before `</body>` tag**. You can co
   src="https://cdn.jsdelivr.net/gh/tominovelli/krond@v1.2/gsap-animations/gsap-reveal.js" 
   defer
   kr-stagger-classes=".custom-class-1, .custom-class-2"
-  kr-fade-classes=".custom-class-1, .custom-class-2"
+  kr-fade-classes=".custom-class-3, .custom-class-4"
 ></script>
 <!-- Scripts End -->
 
