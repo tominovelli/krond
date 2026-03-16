@@ -10,28 +10,6 @@ A Vienna-based Webflow Agency specialized in bridging the gap between high-end d
 
 ---
 
-## 📦 Open Source Library
-
-This repository is a modular collection of production-ready scripts used in KROND projects. Each component is isolated in its own directory with dedicated documentation.
-
-### 🛠 UI Components
-
-* **[Slider Navigation Bridge](https://www.google.com/search?q=./slider-nav)**
-* *Purpose:* Decouple Webflow slider arrows from the native structure for 100% layout freedom.
-* *Status:* Production Ready
-
-
-
-### ✨ GSAP Animations
-
-* **[GSAP Animations](https://www.google.com/search?q=./gsap-animations)**
-* *Purpose:* High-performance scroll-based interactions and reveal effects.
-* *Status:* Development / Internal
-
-
-
----
-
 ## 🛠 Usage & Reliability
 
 To ensure project stability, we use versioned releases via jsDelivr. We recommend anchoring your production projects to a specific version tag (e.g., `@v1.2`) rather than the `@main` branch.
