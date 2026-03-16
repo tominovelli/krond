@@ -47,7 +47,7 @@ Add the following to your Webflow project's **Before `</body>` tag**. You can co
 <!-- Scripts Start -->
 <!-- [Script by Krond] Smart Reveal -->
 <script 
-  src="https://cdn.jsdelivr.net/gh/tominovelli/krond@main/gsap-animations/gsap-reveal.js" 
+  src="https://cdn.jsdelivr.net/gh/tominovelli/krond@v1.2/gsap-animations/gsap-reveal.js" 
   defer
   kr-stagger-classes=".custom-class-1, .custom-class-2"
   kr-fade-classes=".custom-class-1, .custom-class-2"
